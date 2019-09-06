@@ -34,8 +34,14 @@ Paws.App = (function () {
         'vpc': {href: '/vpc/home'},
         'cop': {href: '/codesuite/codepipeline/home'},
         'cfn': {href: '/cloudformation/home'},
+        'api': {href: '/apigateway/home'},
         'clw': {href: '/cloudwatch/home'},
         'lam': {href: '/lambda/home'},
+        'iot': {href: '/iot/home'},
+        'kin': {href: '/kinesis/home'},
+        'ior': {href: '/iot/home#/rulehub'},
+        'ggc': {href: '/iot/home#/greengrass/grouphub'},
+
         // Pages
         'img': {href: '/ec2/v2/home#Images:sort=name'},
         'vol': {href: '/ec2/v2/home#Volumes:sort=desc:createTime'},
@@ -103,4 +109,3 @@ Paws.App = (function () {
 });
 
 new Paws.App();
-
